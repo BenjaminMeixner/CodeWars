@@ -2,18 +2,12 @@ namespace Kata
 
 
 
+open System
 module GrazingDonkey =
-
-
-// diameter is measured in ogre steps
-
-//open System
-//let ogreSteps (diameter : int) (percentage : double) =
-//    let area = Math.Pow((diameter / 2), 2) * Math.PI
-//    let percentile = area * percentage
-//    let steps : int = Math.Pow((percentile / Math.PI), 0.5) * 2
-//    steps
-    
-    let ogreSteps diameter =
-        let steps = 0
-        steps
+    let ogreSteps diameter percentage =
+        let radius = float diameter / 2.0
+        let area = Math.Pow(radius, 2) * Math.PI
+        let percentile = area * percentage
+        let percentileRadius = Math.Pow((percentile / Math.PI), 0.5)
+        let steps = percentileRadius + percentileRadius
+        int steps
