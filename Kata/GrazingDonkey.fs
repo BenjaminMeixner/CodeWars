@@ -4,7 +4,7 @@ namespace Kata
 
 open System
 module GrazingDonkey =
-    let ogreSteps diameter percentage =
+    let OgreSteps diameter percentage =
         let radius = float diameter / 2.0
         let area = Math.Pow(radius, 2) * Math.PI
         let percentile = area * percentage
