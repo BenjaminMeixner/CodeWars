@@ -8,6 +8,13 @@
     <ItemGroup>
       <Compile Include="GrazingDonkey.fs" />
       <Compile Include="PerfectSquare.fs" />
+      <Compile Include="Fibonacci.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FsUnit.xUnit" Version="4.2.0" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+      <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
     </ItemGroup>
 
 </Project>
