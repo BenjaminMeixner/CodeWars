@@ -1,7 +1,5 @@
 namespace Kata
 
-
-
 open System
 module GrazingDonkey =
     let OgreSteps diameter percentage =
