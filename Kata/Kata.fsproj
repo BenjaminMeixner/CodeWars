@@ -9,6 +9,7 @@
       <Compile Include="GrazingDonkey.fs" />
       <Compile Include="PerfectSquare.fs" />
       <Compile Include="Fibonacci.fs" />
+      <Compile Include="FibonacciPattern.fs" />
     </ItemGroup>
 
     <ItemGroup>
